@@ -440,8 +440,6 @@ def je_fais_un_programme_qui_stocke_et_dessine_le_chemin(path):
         fich.write("\nplot3d.plot([x for x, y, z in PATH], [y for x, y, z in PATH], "
                    "[z for x, y, z in PATH], color=Couleur_ch)")
         fich.write("\npyplot.show()")
-    fich.write("print 'This is the end...'")
-    fich.write("\n\nprint ' ' ")
     fich.close()
 
 
@@ -493,4 +491,3 @@ if DESSIN:
     je_fais_un_joli_dessin()
 else:
     serie_de_tests(NB_TESTS)
-print ('\n\n\n\n\n\nThis is the end...\n\n')

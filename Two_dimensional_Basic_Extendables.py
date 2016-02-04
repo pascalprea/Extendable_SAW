@@ -29,7 +29,7 @@ This program just treat a particular case of "Extendable.py" but runs faster.
 THE DRAWING USES matplotlib LIBRARY
 
 """
-LENGTH = 1000000
+LENGTH = 100000
 
 DESSIN = True
 
@@ -309,5 +309,3 @@ if DESSIN:
     je_fais_un_joli_dessin()
 else:
     serie_de_tests(NB_TESTS)
-print('\n\nThis is the end...')
-print(' ')
